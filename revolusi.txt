@@ -1,4 +1,6 @@
 revolusi dimas2024
 1.konsisten
 2.pemograman
-3oke
+-php
+-html
+3.java script
