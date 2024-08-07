@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background: #fff;
+    color: #007BFF;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+.navbar a::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #007BFF;
+    transform: scaleX(0);
+    transition: 0.2s linear;}
+
+.navbar a:hover::after{
+    transform: scaleX(1);}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('pegunung.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+}
+.about{
+    background-color: #007BFF;
+    padding: 100px 20px;
+}
+.about h2,p {
+    color: #fff;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hero .cta {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.about, .services, .contact {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services .service-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.services h2{
+    color: #007BFF;
+}
+.services h3{
+    color: #007BFF;
+    font-size: large;
+    font-weight: bold;
+}
+.service-card h3{
+    font-weight: 30px;
+}
+
+.services .service-card1{
+    background: url(bromo.jpg);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.service-card2{
+    background:url(rinjani.jpg);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.service-card3{
+    background:url(semeru.jpg);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contact h2{
+    color: #007BFF;
+}
+footer p{
+    text-align: center;
+    color: #007BFF;
+}
